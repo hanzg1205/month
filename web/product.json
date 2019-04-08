@@ -1,0 +1,75 @@
+[{
+        "img": "pic1.png",
+        "title": "珠花订绣花 SX-1126",
+        "detail": "3D纯手工",
+        "table": "标签1",
+        "classify": "品类1",
+        "price": 200,
+        "fukuan": "幅宽1",
+        "imgH": 170
+    },
+    {
+        "img": "pic4.png",
+        "title": "珠花订绣花 SX-1128",
+        "detail": "3D纯手工",
+        "table": "标签2",
+        "classify": "品类2",
+        "price": 199,
+        "fukuan": "幅宽2",
+        "imgH": 135
+    }, {
+        "img": "pic5.png",
+        "title": "珠花订绣花 SX-1120",
+        "detail": "3D纯手工",
+        "table": "标签3",
+        "classify": "品类3",
+        "price": 289,
+        "fukuan": "幅宽3",
+        "imgH": 171
+    }, {
+        "img": "pic6.png",
+        "title": "珠花订绣花 SX-1129",
+        "detail": "3D纯手工",
+        "table": "标签1",
+        "classify": "品类1",
+        "price": 289,
+        "fukuan": "幅宽2",
+        "imgH": 153
+    }, {
+        "img": "pic1.png",
+        "title": "珠花订绣花 SX-1111",
+        "detail": "3D纯手工",
+        "table": "标签2",
+        "classify": "品类2",
+        "price": 289,
+        "fukuan": "幅宽1",
+        "imgH": 170
+    }, {
+        "img": "pic5.png",
+        "title": "珠花订绣花 SX-1000",
+        "detail": "3D纯手工",
+        "table": "标签1",
+        "classify": "品类1",
+        "price": 289,
+        "fukuan": "幅宽2",
+        "imgH": 171
+    }, {
+        "img": "pic6.png",
+        "title": "珠花订绣花 SX-1129",
+        "detail": "3D纯手工",
+        "table": "标签1",
+        "classify": "品类1",
+        "price": 289,
+        "fukuan": "幅宽2",
+        "imgH": 153
+    }, {
+        "img": "pic4.png",
+        "title": "珠花订绣花 SX-1129",
+        "detail": "3D纯手工",
+        "table": "标签3",
+        "classify": "品类1",
+        "price": 289,
+        "fukuan": "幅宽2",
+        "imgH": 135
+    }
+]

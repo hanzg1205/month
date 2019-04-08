@@ -1,0 +1,262 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline; }
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  font-family: arial, sans-serif; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+ins,
+a {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: inline-block; }
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none; }
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+  -o-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-size: 14px; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrapper .header {
+    background-image: url(../image/header.png);
+    background-size: 100% 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around; }
+    .wrapper .header > a {
+      width: 140px;
+      height: 80px;
+      background: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 60px;
+      border-radius: 5px; }
+      .wrapper .header > a p {
+        font-size: 18px; }
+      .wrapper .header > a img {
+        width: 40px; }
+  .wrapper .mui-content {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column; }
+    .wrapper .mui-content h4 {
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 20px; }
+    .wrapper .mui-content .main {
+      flex: 1;
+      overflow: hidden; }
+      .wrapper .mui-content .main .main-scroll div {
+        display: flex;
+        justify-content: space-around; }
+        .wrapper .mui-content .main .main-scroll div section {
+          width: 46%; }
+          .wrapper .mui-content .main .main-scroll div section dl {
+            margin-top: 10px; }
+          .wrapper .mui-content .main .main-scroll div section dd {
+            font-size: 14px; }
+          .wrapper .mui-content .main .main-scroll div section img {
+            width: 100%; }
+      .wrapper .mui-content .main .main-scroll #pullUp {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        background: skyblue; }
+  .wrapper .footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ccc; }
+    .wrapper .footer img {
+      height: 22px; }
+
+.mui-bar-nav ~ .mui-content {
+  margin-top: 60px;
+  padding: 0; }
+
+.mui-input-row {
+  background: #fff; }
+
+.mui-table-view {
+  margin-top: 10px; }
+
+.mui-btn-primary {
+  width: 90%;
+  margin-top: 30px;
+  margin: 0 auto;
+  display: block;
+  position: fixed;
+  bottom: 50px;
+  left: 5%;
+  height: 40px;
+  line-height: 40px; }
